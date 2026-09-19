@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day 1 · Monday — Orientation, Equity &amp; Data Access</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav id="topnav">
+  <div class="bar">
+    <a class="brand" href="index.html"><b>D4H · Data Analysis TOT</b><span>Istanbul, 29 Mar – 2 Apr 2027</span></a>
+    <button id="navToggle" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="index.html">Index</a></li>
+      <li><a href="agenda.html">Agenda</a></li>
+      <li><a href="facilitators.html">Facilitators</a></li>
+      <li><a href="materials.html">Materials</a></li>
+      <li><a href="logistics.html">Logistics</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="pagehead">
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">Index</a> / <a href="agenda.html">Agenda</a> / Day 1</p>
+    <h1>Monday — Orientation, equity &amp; data access</h1>
+    <p>Participants arrive as analysts already fluent in their own country's data. Today establishes the shared project logic, introduces equity as a design principle rather than an afterthought, and gets every country team's real data questions and access barriers on the table before any technical work begins.</p>
+    <div class="day-nav">
+      <a href="day1.html">Mon · Day 1</a>
+      <a href="day2.html">Tue · Day 2</a>
+      <a href="day3.html">Wed · Day 3</a>
+      <a href="day4.html">Thu · Day 4</a>
+      <a href="day5.html">Fri · Day 5</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap section">
+
+  <nav class="session-toc" aria-label="Monday sessions">
+    <h2>Sessions</h2>
+    <ol>
+      <li><a href="#s1-1">1.1 Welcome, introductions and the Data for Health Initiative — 09:00–10:30</a></li>
+      <li><a href="#s1-2">1.2 Principles of equity — 11:00–11:30</a></li>
+      <li><a href="#s1-3">1.3 Country team projects: SOPs and data access challenges — 11:30–13:00</a></li>
+      <li><a href="#s1-4">1.4 Establishing data analysis objectives — 14:00–15:00</a></li>
+      <li><a href="#s1-5">1.5 Cleaning data in Excel — 15:00–15:30</a></li>
+      <li><a href="#s1-6">1.6 Preparing for country-specific data analysis projects — 15:30–16:00</a></li>
+      <li><a href="#s1-7">1.7 Combining datasets in Excel; teams analyze data — 16:00–17:00</a></li>
+    </ol>
+  </nav>
+
+  <!-- ============ SESSION 1.1 ============ -->
+  <article class="session" id="s1-1">
+    <p class="s-meta"><span class="id">Session 1.1</span><span>09:00–10:30 · 90 minutes</span><span>Plenary</span><span>Lead facilitator</span></p>
+    <h2 class="stitle">Welcome, introductions and the Data for Health Initiative</h2>
+    <p class="lede">The opening session does three things: sets the tone for a week that treats participants as future trainers rather than students, gets every person and every country team introduced with enough specificity to work together immediately, and gives the whole room a shared, accurate picture of the Data for Health Initiative and where this project sits inside it.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>State the project's goal, its six principles, and how this week's Training of Trainers fits into the seven-phase project cycle.</li>
+        <li>Identify their own country team's priority topic, the data source it depends on, and who on the team owns which part of the work.</li>
+        <li>Locate the week's schedule, the team project brief, and the pre-workshop deliverables they were asked to bring.</li>
+        <li>Articulate, in one sentence, what a "national trainer" is expected to be able to do that an analyst is not.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>Welcome and framing (15 min)</h4>
+    <p>A senior representative of the host institution opens, followed by a CDC Foundation lead. The framing statement matters more than the welcome itself, because it sets what the week is for. State it plainly: this is a Training of Trainers, not a training. Every participant leaves not only able to do this analysis themselves, but able to teach a colleague to do it next year, without a CDC Foundation facilitator in the room. That distinction should be named on the first slide and repeated at the start of Tuesday, Wednesday and Thursday's debriefs.</p>
+
+    <h4>Introductions, by team (20 min)</h4>
+    <p>Skip the round-the-room individual introduction, which burns time and produces little the room can use. Instead, each country team stands together and gives a four-part, ninety-second team introduction: who is on the team and their role at home; which priority topic and dataset they are bringing; what they most want to leave this week able to do; and the one word that describes how confident the team currently feels about their data access. Capture the fourth answer on a flip chart — it becomes a marker to revisit on Friday.</p>
+
+    <h4>The Data for Health Initiative and this project's place in it (25 min)</h4>
+    <p>Present the project goal verbatim and unpack it: to strengthen the analytical and reporting capacity of government agencies and partners to improve the quality, consistency and dissemination of public health surveillance and mortality data, including CRVS data when available and relevant. Separate the three outcomes — quality, consistency, dissemination — and ask each country team which is their binding constraint today. The answers differ by country and should be recorded, because they shape how each team prioritizes its week.</p>
+    <p>Walk the six project principles as design constraints rather than aspirations, since each one determines a concrete choice a participant will make later in the week:</p>
+    <ul>
+      <li><strong>Publication on a government platform.</strong> The report this week produces is a draft for the national public health bulletin or an equivalent government-owned channel, not a CDC Foundation deliverable.</li>
+      <li><strong>Questions come from government partners.</strong> The analysis objective (Session 1.4) must trace back to a decision a named government partner needs to make.</li>
+      <li><strong>Descriptive analytics in Excel.</strong> Not a limitation but a choice for institutional sustainability — Excel is licensed, familiar, and auditable by the supervisor who will approve publication.</li>
+      <li><strong>Equity built in.</strong> Every report disaggregates by sex and location at minimum (Session 1.2).</li>
+      <li><strong>Government data, government ownership.</strong> The agency owns the data and approves publication; the facilitators never hold the only copy.</li>
+      <li><strong>Documented SOPs.</strong> The data dictionary, the request process, and the report template are deliverables of this project, not side effects.</li>
+    </ul>
+    <p>Close by walking the seven-phase cycle at a high level — Training of Trainers (this week), topic and team identification, data exploration, the report-writing workshop this curriculum rehearses, finalize and disseminate, reproduce regular reports — so every participant can place Friday's presentations and next month's follow-up inside the larger arc.</p>
+
+    <h4>Orientation to the week's materials (15 min)</h4>
+    <p>Walk the schedule handout and the team project brief together. Confirm every team has: their priority-topic dataset loaded on a laptop with Excel installed and licensed; their completed pre-workshop deliverable documenting data sources (department, timeliness, quality, purpose, report types, data dictionary, access process, and challenges); and their five-year, district-by-sex dataset on the priority condition. A team missing any of these should say so now, not on Wednesday when it blocks an exercise.</p>
+
+    <h4>The trainer versus the analyst (15 min)</h4>
+    <p>Close with the distinction that governs facilitator behavior all week. An analyst who is asked "does that make sense?" and gets silence assumes agreement. A trainer treats that silence as the most important signal in the room. Ask the group: what is one thing you have seen a good analyst do badly when trying to explain their own work to someone else? Collect two or three answers and post them alongside the confidence-word flip chart from the introductions. Both charts stay on the wall all week and get revisited Friday afternoon.</p>
+
+    <div class="block ex">
+      <h3>Exercise 1.1: The team data-access snapshot</h3>
+      <p class="ex-meta">Country teams · 15 minutes, folded into the introductions block · flip chart per team</p>
+      <ol>
+        <li>As a team, write your priority topic, your primary data source, and the government office that owns it on one flip chart page.</li>
+        <li>Mark, honestly, whether your team's dataset is: fully in hand and clean; in hand but not yet reviewed; partially in hand; or not yet received.</li>
+        <li>If not fully in hand, name the single next action and who is responsible for it, with a date this week.</li>
+        <li>Post the chart on the wall. Facilitators photograph every chart before lunch — this is the baseline the Session 1.3 group-project block works from.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Protocol remarks from a host institution routinely overrun. Brief the speaker in advance on a firm eight minutes and place their remarks before the CDC Foundation framing, so an overrun costs the welcome rather than the orientation-to-materials block, which teams need before Session 1.3.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Teams present their topic in donor language — "improve health outcomes" — rather than a specific, checkable objective. Do not correct this yet; Session 1.4 is where objectives get sharpened. Today's job is only to get the topic and the data status stated honestly.</dd>
+        <dt>Real-world edge case</dt>
+        <dd>A team's dataset has not arrived. Do not let them improvise a placeholder topic on the spot. Assign them the shared training dataset for the week (see resources) so the technical sessions are not blocked, and flag the access gap to that country's focal point today — this is exactly the kind of blocker Session 1.3 exists to surface and act on.</dd>
+        <dt>Facilitation of a mixed-seniority room</dt>
+        <dd>Country delegations often include a senior official whose day-to-day role is not hands-on analysis. Give that person an explicit role in the team introduction — usually describing the decision the analysis will inform — so their contribution is real rather than symbolic, and so they are visibly invested before the group project work begins.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>concept_note_data_analysis_project.pdf</td><td>Read before arrival; referenced throughout the week.</td></tr>
+        <tr><td>tot_schedule_and_team_project_brief.pdf</td><td>Full week schedule and the group project instructions, distributed this session.</td></tr>
+        <tr><td>country_data_source_inventory.xlsx</td><td>Each team's completed pre-workshop deliverable: data sources, ownership, quality, access process and challenges.</td></tr>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's five-year, district-by-sex dataset on their priority disease or condition.</td></tr>
+        <tr><td>shared_training_dataset.xlsx</td><td>Fallback dataset for any team whose own data has not yet arrived.</td></tr>
+        <tr><td>Flip charts and markers</td><td>One per country team, kept posted all week.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>This week trains trainers, not analysts; every exercise is also a rehearsal for teaching it.</li>
+        <li>The project's three outcomes — quality, consistency, dissemination — are separable, and countries differ on which is binding.</li>
+        <li>Every team's data status is on record before lunch, honestly, including gaps.</li>
+      </ul>
+      <ol class="qs">
+        <li>Name the project's six principles and give one concrete decision each one drives during this week.</li>
+        <li>Which of quality, consistency or dissemination is your team's binding constraint, and why?</li>
+        <li>What distinguishes a trainer's response to silence from an analyst's?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 1.2 ============ -->
+  <article class="session" id="s1-2">
+    <p class="s-meta"><span class="id">Session 1.2</span><span>11:00–11:30 · 30 minutes</span><span>Plenary</span></p>
+    <h2 class="stitle">Principles of equity</h2>
+    <p class="lede">Thirty minutes is not enough to teach equity analysis in full — that technical work returns all week, in the disaggregation built into every table and figure from Wednesday onward. This session's job is narrower and non-negotiable: establish equity as a design principle applied before analysis starts, not a filter applied to results afterward, and get every team's disaggregation plan on paper before they touch their data.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>State the project's equity principle and the minimum disaggregation it requires.</li>
+        <li>Distinguish equity-relevant dimensions the data can support from those it cannot, for their own dataset.</li>
+        <li>Explain why disaggregation must be planned before analysis, not added afterward.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>The principle, stated precisely (10 min)</h4>
+    <p>The project requires analysis by sex, location, and other relevant sociodemographic variables where appropriate, so that the perspectives of disadvantaged groups are integrated into policy proposals and communication products. Two words matter most: "integrated" and "appropriate". Integrated means disaggregation appears in the main tables and figures, not a single paragraph added at the end. Appropriate means the team chooses dimensions their actual data can support with reasonable completeness, rather than every dimension in principle.</p>
+
+    <h4>The honest inventory (10 min)</h4>
+    <p>Sex and district or region are almost always available in routine surveillance and mortality data and are the non-negotiable minimum. Socioeconomic status is rarely available at the individual level in this kind of data; where it matters, teams will use an area-level proxy such as a district poverty or wealth indicator, and must say explicitly that the proxy describes the area, not the individual. Age is both a required disaggregation and, later in the week, a factor that must be handled carefully when comparing places with different population structures. Teach the room to write down, plainly, which dimensions their own dataset can support and which it cannot — the second list is itself a finding worth stating in the final report rather than a gap to hide.</p>
+
+    <h4>Why this is planned first, not added later (10 min)</h4>
+    <p>An analysis built without disaggregation in mind is rebuilt, not extended, when equity is added afterward — every table has to be redone, and the natural response under deadline pressure is to drop it. Planning the disaggregation now, before Session 1.4's analysis objectives are finalized, means every objective is written with sex and location already inside it.</p>
+
+    <div class="block ex">
+      <h3>Exercise 1.2: The disaggregation plan</h3>
+      <p class="ex-meta">Country teams · 10 minutes, inside the session</p>
+      <ol>
+        <li>List every sociodemographic variable in your dataset.</li>
+        <li>Mark sex and location as required. For any other variable, decide if it is well-populated enough to disaggregate by, or if it needs an area-level proxy instead.</li>
+        <li>Write one sentence: "Our report will show results by ___ and ___, and cannot currently show results by ___ because ___." Keep this sentence — it feeds directly into the objectives written in Session 1.4 and the limitations section drafted later in the week.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Thirty minutes invites the temptation to go deeper into equity theory. Resist it — the technical disaggregation work has dedicated time later in the week. Keep this session to the planning decision and move on.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Teams claim they can disaggregate by a variable that is present in the schema but poorly completed in practice. Push for an honest completeness check, even a rough one, before committing to a dimension in the objectives.</dd>
+        <dt>Real-world edge case</dt>
+        <dd>A team's dataset has no location field finer than national. Do not treat this as a dead end — teach them to say so as a finding: "district-level reporting is not currently available; this is itself a gap worth flagging to the data owner."</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>equity_principles_guide.pdf</td><td>One-page guide: required dimensions, proxy variables, and the "integrated not added" rule.</td></tr>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's own dataset, used for the disaggregation inventory.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Sex and location are the required minimum disaggregation; other dimensions are added where the data genuinely supports them.</li>
+        <li>An area-level proxy describes the area, not the individual — say so explicitly.</li>
+        <li>Plan disaggregation before writing objectives, not after seeing results.</li>
+      </ul>
+      <ol class="qs">
+        <li>What are the two required disaggregation dimensions for every report in this project?</li>
+        <li>Why does an area-level poverty measure not tell you about an individual's poverty?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 1.3 ============ -->
+  <article class="session" id="s1-3">
+    <p class="s-meta"><span class="id">Session 1.3</span><span>11:30–13:00 · 90 minutes</span><span>Country teams, facilitators circulating</span></p>
+    <h2 class="stitle">Country team projects: SOPs and data access challenges</h2>
+    <p class="lede">The first extended block of applied team time. Each country team documents its actual standard operating procedure for accessing its priority dataset and reports the real challenges it faces, so that gaps surface on day one rather than on Thursday when they block report finalization.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Document their country's actual data access pathway: the request process, the approving offices, and realistic timelines.</li>
+        <li>Name the specific, current challenges to accessing their priority dataset, each with an owner and a next action.</li>
+        <li>Present that pathway and those challenges to the full room in a form other teams and facilitators can act on.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>Why this comes before any technical training (10 min)</h4>
+    <p>Data access problems are institutional and take weeks to resolve; formula problems take minutes. Surfacing access barriers on Monday morning gives four days for the CDC Foundation team and country focal points to intervene, versus discovering a gap on Thursday when a report cannot be finished. This is also the direct output requested in the project's pre-workshop deliverables — documenting the data source, the process for accessing it, and the challenges encountered — and this block is where that documentation gets finished and stress-tested against real experience.</p>
+
+    <h4>Building the access pathway, in detail (35 min)</h4>
+    <p>Each team maps its actual pathway, not the official one on paper if the two differ: who submits the request, in what form; which offices must approve it and in what order; how long each step realistically takes based on past experience, not policy documents; whether there is a cost; and where the pathway has broken down before. This map becomes part of the team's contribution to the project's documented SOPs, one of the project's explicit objectives.</p>
+<pre><code>ACCESS PATHWAY WORKSHEET — one row per step
+
+  Step | Action                          | Office/Role        | Typical time | Known failure point
+  1    | Submit written data request     | M&E Unit            | 2-3 days     | Request form often incomplete
+  2    | Technical review of request     | District Health Office | 1-2 weeks | Reviewer rotation delays sign-off
+  3    | Approval for release            | Director of Planning | 2-4 weeks   | Director travel, no delegate
+  4    | Extract produced                | Statistics Unit     | 3-5 days     | Extract often PDF, not CSV/XLSX
+  5    | Extract received and verified   | Requesting analyst  | 1 day        | Row counts sometimes do not match
+</code></pre>
+
+    <h4>Naming the current challenges (25 min)</h4>
+    <p>Beyond the general pathway, each team lists the specific challenges affecting their priority topic right now: a pending approval, a format problem, a definitional mismatch between what was requested and what was received, a missing recent year. Each challenge needs an owner — a named person or office — and a next action with a date. A challenge with no owner is not yet actionable and should be marked as such rather than left vague.</p>
+
+    <h4>Report-back and cross-country pattern spotting (20 min)</h4>
+    <p>Each team presents its pathway and top three challenges to the room in four minutes. Facilitators track challenges that recur across countries on a shared "parking lot" chart — these recurring patterns (for example, extracts arriving as PDF rather than a usable file format, or approval bottlenecks at a single office) become material for the Session 2.2 training methodologies discussion and for the mentoring conversations that follow the workshop.</p>
+
+    <div class="block ex">
+      <h3>Exercise 1.3: Pathway map and challenge log</h3>
+      <p class="ex-meta">Country teams · 55 minutes work, 20 minutes report-back · flip chart, then transferred to the SOP worksheet</p>
+      <ol>
+        <li>Complete the access pathway worksheet for your priority dataset, using real experience rather than official policy where the two differ.</li>
+        <li>List your top three current challenges, each with a named owner and a dated next action.</li>
+        <li>Compare against the data source inventory brought as a pre-workshop deliverable — reconcile any differences and update the inventory if your understanding has changed.</li>
+        <li>Prepare a four-minute report-back covering the pathway and the top three challenges.</li>
+        <li>Deliver the report-back; facilitators log recurring patterns across countries on the shared chart.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Ninety minutes for four country teams to build and present a pathway map is tight. Protect the report-back over the drafting time if the session runs long — an incomplete pathway map with a strong verbal report-back is more useful than a polished document nobody hears about.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Teams describe the official process rather than what actually happens. Ask directly: "when did you last request data this way, and did it go exactly like this?" The gap between policy and practice is usually where the real challenge lives.</dd>
+        <dt>Real-world edge case</dt>
+        <dd>A team is reluctant to name a specific office or person as a bottleneck in front of the full room, for political reasons. Let them log the sensitive detail privately with a facilitator rather than in the plenary report-back, and still capture the pattern anonymously on the shared chart.</dd>
+        <dt>Connecting forward</dt>
+        <dd>Flag explicitly that the challenges logged here are not filed away — they are revisited in Session 2.2's training methodologies discussion and become part of what each team's action plan addresses before the workshop ends.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>access_pathway_worksheet.xlsx</td><td>Five-column template: step, action, office/role, typical time, known failure point.</td></tr>
+        <tr><td>country_data_source_inventory.xlsx</td><td>Each team's pre-workshop deliverable, reconciled and updated in this session.</td></tr>
+        <tr><td>Shared "parking lot" chart</td><td>Facilitator-maintained, tracks recurring challenges across all four countries.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Access barriers are institutional and slow to resolve — surface them on day one, not on the last day.</li>
+        <li>A challenge without a named owner and a dated action is not yet actionable.</li>
+        <li>The real pathway and the official pathway are often different; document the real one.</li>
+      </ul>
+      <ol class="qs">
+        <li>What makes a logged challenge "actionable" rather than just a complaint?</li>
+        <li>Why does this session run before any technical training, rather than after?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 1.4 ============ -->
+  <article class="session" id="s1-4">
+    <p class="s-meta"><span class="id">Session 1.4</span><span>14:00–15:00 · 60 minutes</span><span>Plenary, then country teams</span></p>
+    <h2 class="stitle">Establishing data analysis objectives</h2>
+    <p class="lede">Participants habitually start with the data and look for something interesting to say, which produces a description nobody asked for. This session teaches the opposite discipline: name the decision the analysis serves, then write objectives specific enough that two analysts working separately would build the same table.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Convert a general topic into two or three specific, answerable analysis objectives.</li>
+        <li>Write an objective that names the indicator, the population, the period, the geography, and the comparison, including the sex and location disaggregation from Session 1.2.</li>
+        <li>Apply the "so what" test to eliminate objectives that do not change any decision.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>From topic to objective (20 min)</h4>
+    <p>Demonstrate the progression live, using one country team's real topic as the worked example, with their permission secured at the morning break.</p>
+<pre><code>THE TOPIC AS BROUGHT TO THE WORKSHOP
+  "We want to analyze malaria in our country."
+
+THE QUESTION THAT SHARPENS IT
+  "What decision will this analysis inform, and who makes it?"
+  -> "Where to prioritize next year's bed net distribution,
+      decided at the September district planning review."
+
+THE OBJECTIVE THIS PRODUCES
+  Objective 1: Describe confirmed malaria cases and incidence per 1,000
+  population by district and by sex for 2024, and identify districts in
+  the highest quintile.
+  Objective 2: Compare 2024 incidence with the 2021-2023 average by
+  district, and identify districts with an increase greater than 20%.
+
+EACH OBJECTIVE NAMES FIVE THINGS
+  indicator | population | period | geography | comparison</code></pre>
+
+    <h4>The "so what" test (15 min)</h4>
+    <p>For every draft objective, ask what the reader does differently depending on the answer. An objective that produces the same action regardless of the result is a description, not an analysis, and should be cut or moved to background context. Apply this test live to two or three objectives volunteered by the room.</p>
+
+    <h4>Folding in equity and scope (15 min)</h4>
+    <p>Every objective must carry the disaggregation decided in Session 1.2 explicitly in its wording — "by district and by sex" is not optional phrasing, it is the objective doing its job. Close by having each team write what is explicitly out of scope for this report, with a one-line reason for each exclusion — this prevents scope drift for the rest of the week.</p>
+
+    <div class="block ex">
+      <h3>Exercise 1.4: Write your team's objectives</h3>
+      <p class="ex-meta">Country teams · 25 minutes, continues informally into the 14:30–15:00 project work block</p>
+      <ol>
+        <li>State your team's decision and the date it is made. If unknown, name who to ask — that is itself the finding for today.</li>
+        <li>Draft two to three objectives, each naming indicator, population, period, geography and comparison, and carrying your Session 1.2 disaggregation.</li>
+        <li>Apply the "so what" test to each and revise or cut any that fail.</li>
+        <li>Write your out-of-scope list with a reason for each item.</li>
+        <li>Exchange with another team for a five-minute challenge: can they tell, from the objective alone, exactly what table you will produce?</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>The 14:30–15:00 block on the schedule is unstructured team time; use it as a continuation of this exercise rather than a separate activity, since objectives are rarely finished in the first 25 minutes.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Objectives that are really just titles — "malaria in 2024." Push for all five named elements every time.</dd>
+        <dt>Real-world edge case</dt>
+        <dd>The decision-maker is unavailable to confirm what decision the analysis serves. Have the team write their best inference, mark it explicitly as an assumption, and flag it for confirmation with their country focal point this week.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>analysis_objectives_template.docx</td><td>Structured prompt for the five required elements plus the out-of-scope list.</td></tr>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's own dataset, referenced when checking an objective is achievable.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Start from the decision, not the data.</li>
+        <li>An objective names indicator, population, period, geography and comparison.</li>
+        <li>Disaggregation belongs inside the objective's wording, not added afterward.</li>
+      </ul>
+      <ol class="qs">
+        <li>Rewrite "analyze maternal mortality" as one complete objective, inventing reasonable specifics.</li>
+        <li>What does an objective failing the "so what" test look like, and what do you do with it?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 1.5 ============ -->
+  <article class="session" id="s1-5">
+    <p class="s-meta"><span class="id">Session 1.5</span><span>15:00–15:30 · 30 minutes</span><span>Demonstration, then individual practice</span></p>
+    <h2 class="stitle">Cleaning data in Excel</h2>
+    <p class="lede">A focused first pass at data cleaning, sized to what thirty minutes can actually teach: diagnosing before fixing, and the two defects that account for most early-week frustration — inconsistent categorical values and numbers stored as text. Deeper cleaning work continues in each team's own project time for the rest of the week.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Diagnose inconsistent categorical values using a PivotTable count, before attempting any fix.</li>
+        <li>Build a mapping table to standardize categorical values, rather than using find-and-replace.</li>
+        <li>Diagnose and correct numbers stored as text.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>Diagnose before you fix (10 min)</h4>
+<pre><code>DIAGNOSE — always first
+  PivotTable on the district column, count of rows.
+  Sort descending. Real districts are at the top; typos and
+  variant spellings form the long tail.
+
+FIX — a mapping table, never in-place replacement
+  raw_value        clean_value
+  NORTHERN         Northern
+  Northern Region  Northern
+  Nothern          Northern
+
+  =XLOOKUP(TRIM([@district]), map[raw_value], map[clean_value], "UNMAPPED")
+  Filter for "UNMAPPED" and extend the map with any new raw values.
+  A mapping table survives the next quarter's extract; find-and-replace
+  does not.</code></pre>
+
+    <h4>Numbers stored as text (10 min)</h4>
+<pre><code>SYMPTOM: left-aligned numbers, SUM returns 0.
+DIAGNOSE: =SUMPRODUCT(--ISTEXT(range))
+FIX:      =VALUE(TRIM(SUBSTITUTE(range, CHAR(160), "")))
+CONFIRM:  COUNT(range) now equals COUNTA(range)</code></pre>
+
+    <h4>What continues later this week (10 min)</h4>
+    <p>State plainly that thirty minutes covers only the first two defect classes. Date parsing, duplicates, missingness, and impossible values are handled inside each team's own project time across the week, using the same diagnose-before-fixing discipline demonstrated here. Point teams to the cleaning log template so every decision they make on their own data this week is recorded with a reason.</p>
+
+    <div class="block ex">
+      <h3>Exercise 1.5: Diagnose and map your district field</h3>
+      <p class="ex-meta">Individual, laptops · 15 minutes · own country dataset or shared_training_dataset.xlsx</p>
+      <ol>
+        <li>Build a PivotTable count of your district or facility field and identify every inconsistent value.</li>
+        <li>Build a mapping table and apply it with XLOOKUP.</li>
+        <li>Check for any text-formatted numeric field and apply the VALUE/TRIM fix.</li>
+        <li>Log each change in the cleaning log, with the count of records affected.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>This is deliberately a taste, not a full treatment. Do not let the room's questions expand it into the full cleaning clinic — redirect deeper questions to project time.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Participants reach for find-and-replace immediately. Insist on the diagnostic count first, every time — it is the habit this thirty minutes exists to build.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's own dataset.</td></tr>
+        <tr><td>shared_training_dataset.xlsx</td><td>Fallback for any team without their own data yet.</td></tr>
+        <tr><td>cleaning_log_template.xlsx</td><td>Field, issue, action, records affected, decided by, date.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Diagnose with a count before fixing anything.</li>
+        <li>A mapping table survives the next extract; find-and-replace does not.</li>
+      </ul>
+      <ol class="qs">
+        <li>Why is a mapping table preferable to find-and-replace for a value that recurs in every future extract?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 1.6 ============ -->
+  <article class="session" id="s1-6">
+    <p class="s-meta"><span class="id">Session 1.6</span><span>15:30–16:00 · 30 minutes</span><span>Country teams</span></p>
+    <h2 class="stitle">Preparing for country-specific data analysis projects</h2>
+    <p class="lede">A short planning session that turns everything decided so far today — topic, equity plan, objectives, and initial cleaning — into a concrete plan for the rest of the week's project time.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Produce a short written plan sequencing the team's remaining project work across Tuesday through Thursday.</li>
+        <li>Assign a specific role to each team member for the week's technical work.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>From today's decisions to a week plan (15 min)</h4>
+    <p>Each team now holds: a documented access pathway and challenge log (Session 1.3), a disaggregation plan (Session 1.2), and draft analysis objectives (Session 1.4). This session's job is to sequence the remaining work: which objective gets analyzed first, who leads the Excel work for it, who checks the denominator, and who starts drafting text as results become available. Teach the principle that a report is built incrementally through the week, not assembled from scratch on Thursday night — the team that has a results paragraph roughing itself out by Tuesday evening is in a materially better position by Friday than the team still calculating on Thursday afternoon.</p>
+
+    <h4>Assigning roles (15 min)</h4>
+    <p>With teams of two to three, full role specialization is unrealistic, but assigning a primary owner to each of three functions — analysis, writing, and quality/verification — prevents the common failure where everyone touches everything and nobody is accountable for the numbers matching the text by Friday.</p>
+
+    <div class="block ex">
+      <h3>Exercise 1.6: The week plan</h3>
+      <p class="ex-meta">Country teams · 25 minutes</p>
+      <ol>
+        <li>List your objectives in the order you will tackle them.</li>
+        <li>For each, note the day and approximate time you expect to complete the core calculation, referencing this week's schedule.</li>
+        <li>Assign primary ownership of analysis, writing, and quality/verification across your team members.</li>
+        <li>Identify the single biggest risk to finishing by Thursday afternoon, and one mitigation.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Keep this brisk — it is a planning session, not a working session. The plan itself should take no more than one page.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Teams sequence their hardest objective last, intending to "get the easy ones done first." Recommend the reverse where feasible: tackling the hardest objective while energy and facilitator availability are highest leaves easier work for the tired final stretch.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>week_plan_template.docx</td><td>One-page sequencing and role-assignment template.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>A report built incrementally across the week beats one assembled from scratch on the last day.</li>
+        <li>Assign clear ownership of analysis, writing and verification, even in a small team.</li>
+      </ul>
+      <ol class="qs">
+        <li>What is the argument for tackling your hardest objective early in the week rather than last?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 1.7 ============ -->
+  <article class="session" id="s1-7">
+    <p class="s-meta"><span class="id">Session 1.7</span><span>16:00–17:00 · 60 minutes</span><span>Demonstration, then applied team practice</span></p>
+    <h2 class="stitle">Combining datasets in Excel; teams analyze data</h2>
+    <p class="lede">Most real analyses require joining at least two files — a case dataset and a population denominator, or two years of the same report. This session teaches the two reliable ways to combine datasets in Excel, then hands the rest of the hour to teams to apply it to their own data.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Combine two related datasets using XLOOKUP for a one-to-one or many-to-one join.</li>
+        <li>Stack two files with the same structure using Power Query's Append, or a manual copy-down when Power Query is unavailable.</li>
+        <li>Verify a combined dataset by reconciling row counts and totals before analyzing it.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>Joining: attaching a lookup value (20 min)</h4>
+<pre><code>JOIN TYPE 1 — attach a value from another table (e.g. population by district)
+  =XLOOKUP([@district], pop_table[district], pop_table[population], "NO MATCH")
+  Count "NO MATCH" results before proceeding. Zero unmatched, always,
+  before any rate is calculated on the combined table.
+
+JOIN TYPE 2 — stack two files with identical columns (e.g. 2023 and 2024)
+  Power Query: Data > Get Data > From File, for each source,
+  then Append Queries to stack them, then Close & Load To a Table.
+  Without Power Query: copy the second file's rows directly below the
+  first's, confirming column order and headers match exactly first.
+
+VERIFY, always
+  Row count of combined table = sum of the row counts of the sources.
+  A stated total (if one exists) reconciles against SUM() of the
+  combined data.</code></pre>
+
+    <h4>Applied team practice (35 min)</h4>
+    <p>The remainder of the hour is unstructured practice time. Teams combine their own priority dataset with its population denominator, or with a prior year's file if their analysis requires a time comparison, using the techniques just demonstrated. Facilitators circulate team to team rather than teaching from the front, applying the demonstrate-guide-release principle at the level of individual teams rather than the whole room.</p>
+
+    <div class="block ex">
+      <h3>Exercise 1.7: Combine your own data</h3>
+      <p class="ex-meta">Country teams, applied practice · remainder of the hour</p>
+      <ol>
+        <li>Identify the second file your objective requires — most commonly a population denominator.</li>
+        <li>Join or stack it with your priority dataset using the method that fits.</li>
+        <li>Run the verification check: unmatched count is zero, and totals reconcile.</li>
+        <li>Save the combined table as a named Table, ready for tomorrow's descriptive statistics work.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Keep the demonstration to twenty minutes even under pressure to explain more — the applied time is where the real skill forms, and every team's data will surface a slightly different edge case that a longer demonstration cannot anticipate.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Teams skip the unmatched-count check because the combined table "looks full." Walk each team through running it explicitly before they leave for the day.</dd>
+        <dt>Real-world edge case</dt>
+        <dd>A team's two files use different spellings or boundary definitions for the same districts. This is the categorical-mapping problem from Session 1.5 recurring at the join stage — apply the same mapping-table fix before attempting the join, not after.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's own dataset.</td></tr>
+        <tr><td>country_population_denominator.xlsx</td><td>Population figures matched to each team's geography, for the join.</td></tr>
+        <tr><td>combining_datasets_guide.pdf</td><td>Reference for both join methods, with the verification step highlighted.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Always verify a combined dataset before analyzing it: zero unmatched joins, totals reconciled.</li>
+        <li>A join failure is usually a categorical mismatch, the same problem Session 1.5 introduced.</li>
+      </ul>
+      <ol class="qs">
+        <li>Your XLOOKUP returns twelve "NO MATCH" results out of four hundred rows. What do you check first?</li>
+      </ol>
+    </div>
+  </article>
+
+  <div class="day-pager">
+    <span></span>
+    <a href="day2.html">Day 2 — Tuesday →</a>
+  </div>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap"><p>Data Analysis and Report Writing Project — Phase 1 Training of Trainers.</p></div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

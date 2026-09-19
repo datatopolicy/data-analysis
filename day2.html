@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day 2 · Tuesday — Data Preparation &amp; Descriptive Statistics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav id="topnav">
+  <div class="bar">
+    <a class="brand" href="index.html"><b>D4H · Data Analysis TOT</b><span>Istanbul, 29 Mar – 2 Apr 2027</span></a>
+    <button id="navToggle" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="index.html">Index</a></li>
+      <li><a href="agenda.html">Agenda</a></li>
+      <li><a href="facilitators.html">Facilitators</a></li>
+      <li><a href="materials.html">Materials</a></li>
+      <li><a href="logistics.html">Logistics</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="pagehead">
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">Index</a> / <a href="agenda.html">Agenda</a> / Day 2</p>
+    <h1>Tuesday — Data preparation &amp; descriptive statistics</h1>
+    <p>Today builds the technical core participants will rely on for the rest of the week: calculating a defensible rate from census denominators, describing a dataset honestly, and using PivotTables as the primary analysis tool.</p>
+    <div class="day-nav">
+      <a href="day1.html">Mon · Day 1</a>
+      <a href="day2.html">Tue · Day 2</a>
+      <a href="day3.html">Wed · Day 3</a>
+      <a href="day4.html">Thu · Day 4</a>
+      <a href="day5.html">Fri · Day 5</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="wrap section">
+
+  <nav class="session-toc" aria-label="Tuesday sessions">
+    <h2>Sessions</h2>
+    <ol>
+      <li><a href="#s2-1">2.1 Day 1 debrief — 09:00–09:30</a></li>
+      <li><a href="#s2-2">2.2 Training methodologies — 09:30–10:30</a></li>
+      <li><a href="#s2-3">2.3 Accessing and using census data to calculate rates in Excel — 11:00–12:00</a></li>
+      <li><a href="#s2-4">2.4 Descriptive statistics review — 12:00–13:00</a></li>
+      <li><a href="#s2-5">2.5 Descriptive statistics using Excel — 14:00–15:00</a></li>
+      <li><a href="#s2-6">2.6 Data analysis using PivotTables — 15:00–16:00</a></li>
+      <li><a href="#s2-7">2.7 Applied practice: teams analyze data — 16:00–17:00</a></li>
+    </ol>
+  </nav>
+
+  <!-- ============ SESSION 2.1 ============ -->
+  <article class="session" id="s2-1">
+    <p class="s-meta"><span class="id">Session 2.1</span><span>09:00–09:30 · 30 minutes</span><span>Plenary</span></p>
+    <h2 class="stitle">Day 1 debrief</h2>
+    <p class="lede">The first of four short daily debriefs that open Tuesday through Friday. Each follows the same structure and does real work: it surfaces what stuck and what didn't from the previous day, and it models a debrief structure participants can reuse in their own national trainings.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Recall and restate the previous day's key technical and process decisions.</li>
+        <li>Identify one thing from yesterday that is still unclear, and get it resolved before building on it today.</li>
+        <li>Practice the debrief structure itself as a facilitation technique for later use.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>The debrief structure, used all week (20 min)</h4>
+    <p>Run every daily debrief through the same three questions, asked to the room and answered by volunteers rather than lectured: what is one decision or number from yesterday you are still using today; what is one thing you are still unsure about; and what is one thing you want to watch for today. For Tuesday specifically, confirm each team can restate its analysis objectives from Session 1.4, its disaggregation plan from Session 1.2, and the status of its combined dataset from Session 1.7.</p>
+
+    <h4>Resolving open items (10 min)</h4>
+    <p>Use the parking-lot chart from Session 1.3 to check whether any access challenges have moved since yesterday, and update it live. This keeps the chart a living tool rather than a one-time exercise.</p>
+
+    <div class="block ex">
+      <h3>Exercise 2.1: Team-by-team status check</h3>
+      <p class="ex-meta">Country teams, reporting to plenary · 15 minutes within the session</p>
+      <ol>
+        <li>Each team states, in under a minute: their objective, their disaggregation plan, and whether their combined dataset passed its verification check.</li>
+        <li>Any team that could not complete the Session 1.7 verification flags it now, and a facilitator is assigned to support them at the first break.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Thirty minutes for four teams plus the parking-lot update is tight; hold each team's status check to under a minute by modeling it yourself first.</dd>
+        <dt>Purpose beyond content</dt>
+        <dd>Point out explicitly, at least once this week, that the debrief structure itself — three fixed questions, brief answers, immediate follow-up on anything unresolved — is a technique participants can use verbatim when they run their own multi-day trainings at home.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>Parking-lot chart</td><td>Carried forward from Session 1.3.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>A fixed three-question debrief structure surfaces what needs attention without consuming the whole morning.</li>
+      </ul>
+      <ol class="qs">
+        <li>What are the three questions this debrief structure always asks?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 2.2 ============ -->
+  <article class="session" id="s2-2">
+    <p class="s-meta"><span class="id">Session 2.2</span><span>09:30–10:30 · 60 minutes</span><span>Plenary with paired practice</span></p>
+    <h2 class="stitle">Training methodologies</h2>
+    <p class="lede">This is the Training of Trainers thread running through the week: participants are not only learning to analyze data, they are learning to teach this content to colleagues at home. This session introduces the core adult-learning technique used in every technical session for the rest of the week, so participants recognize it as a deliberate method rather than absorbing it passively.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Explain why demonstration alone does not transfer a spreadsheet skill.</li>
+        <li>Apply the demonstrate-guide-release sequence to structure a short technical teaching block.</li>
+        <li>Identify the recurring data-access challenges from Session 1.3 as material for their own future training sessions.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>Why demonstration is not enough (15 min)</h4>
+    <p>A learner who watches a formula built can recognize it later but usually cannot reproduce it under different conditions — recognition is mistaken for ability far more often than it should be. Establish the working-memory principle: a learner holds roughly four new elements at once, so a step combining an absolute reference, a nested function, and a nested comparison in one breath will lose most of the room even when each piece alone is simple.</p>
+
+    <h4>Demonstrate, guide, release (25 min)</h4>
+<pre><code>DEMONSTRATE   Facilitator projects, learners watch, hands off keyboard.
+              State the goal before the keystrokes: "I need this rate
+              comparable across districts of different sizes" —
+              not "type an equals sign."
+
+GUIDE         Same task, learners type along, paced to the slowest
+              third. Checkpoint after each step: "call out what your
+              cell shows" — not "does that make sense?"
+
+RELEASE       A structurally identical but new task, no walkthrough,
+              written instructions only. Facilitators circulate and
+              ask questions rather than fixing keyboards.
+
+DEBRIEF       Name two or three errors observed, without naming people,
+              and have the room diagnose the likely cause together.</code></pre>
+    <p>Model this sequence live by teaching a trivial formula using it in front of the room, narrating each phase as you go, so the structure itself is visible rather than just described.</p>
+
+    <h4>Turning Monday's challenges into teaching material (20 min)</h4>
+    <p>Return to the recurring data-access challenges logged in Session 1.3. Ask participants: if you were teaching a new analyst in your ministry next year, how would you prepare them for the challenge that showed up on three of the four country charts? This connects the training-methodology thread directly to something concrete from the participants' own week rather than treating it as abstract theory.</p>
+
+    <div class="block ex">
+      <h3>Exercise 2.2: Teach a two-minute step</h3>
+      <p class="ex-meta">Pairs · 20 minutes</p>
+      <ol>
+        <li>Each person picks one small Excel step they already know well — for example, applying an absolute reference, or building a simple IF formula.</li>
+        <li>Teach it to your partner in two minutes using demonstrate-guide-release, compressed to fit the time.</li>
+        <li>Partner gives one sentence of feedback: did the demonstration state the goal before the keystrokes?</li>
+        <li>Swap roles and repeat with a different step.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>The paired exercise compresses a full sequence into two minutes, which feels artificial — say so explicitly, and note that the compression is intentional practice, not the standard the full technical sessions later this week will use.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Participants skip straight to "guide" without stating the goal first. This is the single most common fault and is worth calling out by name every time it appears.</dd>
+        <dt>Connecting forward</dt>
+        <dd>Tell the room explicitly that every remaining technical session this week — census rates, descriptive statistics, PivotTables, tables, figures, maps — is itself an example of this structure, and ask them to notice it happening rather than just experiencing it.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>demonstrate_guide_release_reference.pdf</td><td>One-page summary of the sequence, kept for the rest of the week.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Demonstration alone produces recognition, not ability.</li>
+        <li>State the goal before the keystrokes, every time.</li>
+        <li>Check understanding with an observable answer, not "does that make sense."</li>
+      </ul>
+      <ol class="qs">
+        <li>Name the four phases of demonstrate-guide-release in order.</li>
+        <li>Why is "does that make sense?" a weak check for understanding?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 2.3 ============ -->
+  <article class="session" id="s2-3">
+    <p class="s-meta"><span class="id">Session 2.3</span><span>11:00–12:00 · 60 minutes</span><span>Demonstration then guided practice</span></p>
+    <h2 class="stitle">Accessing and using census data to calculate rates in Excel</h2>
+    <p class="lede">A count on its own cannot answer "is this common here." This session teaches participants to locate the correct census or projection denominator and build a defensible rate — one of the project's eight explicit objectives.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Identify where to obtain the official population denominator for a given year and geography.</li>
+        <li>Match a denominator to a numerator on period, geography, age and sex.</li>
+        <li>Calculate a crude rate with an appropriate multiplier and cite its denominator source correctly.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>Where denominators come from (15 min)</h4>
+    <p>Distinguish a census count (an enumeration in a specific year, authoritative for that year), a projection (a modeled estimate for other years, published by the national statistics office), and an estimate (anything else, used only when nothing official exists and always with the method stated). The rule to teach: use the official projection for the numerator's year and geography, and cite it by publication, table and year — never just "the census."</p>
+
+    <h4>The matching rule (20 min)</h4>
+<pre><code>THE RULE
+  The denominator must be the population that could have produced the
+  numerator's events, over the same period and geography.
+
+COMMON MISMATCH
+  2024 case counts / 2022 census population
+  -> use the official 2024 projection instead, and cite it.
+
+MID-YEAR POPULATION for an annual rate
+  =AVERAGE(pop_jan_2024, pop_jan_2025)
+  or the published July estimate directly, if available.
+
+CRUDE RATE
+  =cases / population * multiplier
+  Choose the multiplier (1,000 or 100,000) that puts the result
+  between roughly 1 and 1,000, and use it consistently throughout
+  the report.</code></pre>
+
+    <h4>Attaching the denominator to a case table (25 min)</h4>
+    <p>Demonstrate building a composite key when the geography needs to match on more than district alone (for example, district and sex), and using XLOOKUP to attach the correct population figure to each row of the case data, exactly as practiced generally in yesterday's Session 1.7 joining exercise, now specifically for a population denominator.</p>
+
+    <div class="block ex">
+      <h3>Exercise 2.3: Calculate your team's headline rate</h3>
+      <p class="ex-meta">Country teams · 25 minutes, guided</p>
+      <ol>
+        <li>Locate the correct official population figure for your priority topic's year and geography.</li>
+        <li>Attach it to your case data using XLOOKUP on a matching key.</li>
+        <li>Calculate the crude rate with an appropriate multiplier.</li>
+        <li>Sense-check the result: is it a plausible order of magnitude? If not, check the multiplier and the denominator match before anything else.</li>
+        <li>Write the exact denominator citation you will use in your report: publication, table, year.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Locating the correct official denominator (step 1) often takes longer than expected if a team has not brought it. Have a national census/projection reference on hand for each of the four countries as a fallback.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Teams use whatever population figure is easiest to find rather than the one matching their numerator's exact year. Insist on the year match before proceeding.</dd>
+        <dt>Real-world edge case</dt>
+        <dd>A team's numerator geography has been redrawn since the last census (districts split or merged). Teach the fallback: aggregate both numerator and denominator to the coarsest geography where boundaries are stable, and say so in the report.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>national_census_projections/</td><td>Official population projection series for each of the four countries, by district, sex and age band.</td></tr>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's combined dataset from Session 1.7.</td></tr>
+        <tr><td>rate_calculation_reference.pdf</td><td>Denominator matching rule, multiplier guidance, and citation format.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Use the official projection matching the numerator's year and geography, and cite it precisely.</li>
+        <li>A rate, not a count, is what supports comparison across places of different sizes.</li>
+        <li>Sense-check every rate against a plausible range before trusting it.</li>
+      </ul>
+      <ol class="qs">
+        <li>Your numerator is from 2024 and your only denominator is the 2022 census. What do you do?</li>
+        <li>Why can a count alone not answer "is this condition common in District A compared to District B"?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 2.4 ============ -->
+  <article class="session" id="s2-4">
+    <p class="s-meta"><span class="id">Session 2.4</span><span>12:00–13:00 · 60 minutes</span><span>Plenary</span></p>
+    <h2 class="stitle">Descriptive statistics review</h2>
+    <p class="lede">Before building descriptive statistics in Excel this afternoon, this session reviews the concepts themselves — what each summary statistic answers, and which one is being misused when a report reaches the wrong conclusion.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>State what the mean, median, and range each answer, and when the mean is misleading.</li>
+        <li>Distinguish a count, a proportion, and a rate, and state which supports comparison across places.</li>
+        <li>Identify which summary statistic is appropriate for a skewed distribution.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>Measures of central tendency and when they mislead (25 min)</h4>
+<pre><code>MEAN     Sensitive to extreme values. A district with one outbreak week
+         of 400 cases pulls the year's weekly mean well above what a
+         typical week looked like.
+MEDIAN   The middle value. More representative for skewed counts, such
+         as weekly case counts, where a few weeks are far above the rest.
+RANGE    Highest minus lowest. Useful alongside the median to show how
+         spread out the data is, but sensitive to a single extreme point.
+
+RULE OF THUMB
+  If a distribution has a few very high values (most surveillance
+  count data does), report the median, not the mean, as the headline
+  summary, and mention the range or a specific high point separately.</code></pre>
+
+    <h4>Counts, proportions and rates, revisited (20 min)</h4>
+    <p>Reinforce the distinction introduced yesterday's rate session: a count on its own supports no comparison; a proportion answers "what share of this group," using the same kind of thing as its own denominator; a rate answers "how common is this here," using a population denominator, and is the only one of the three that supports comparing places of different sizes. A proportion and a rate can point in different directions for the same data, and both should be understood before either is trusted.</p>
+
+    <h4>What "descriptive" means, and its limit (15 min)</h4>
+    <p>Reaffirm the project principle: this project uses descriptive analytics, meaning it describes what the data show — counts, rates, trends, disaggregated patterns — without claiming to establish why. Descriptive analysis can say incidence rose; it cannot, on its own, say why it rose. That distinction becomes essential later in the week when drafting recommendations.</p>
+
+    <div class="block ex">
+      <h3>Exercise 2.4: Choose the right summary statistic</h3>
+      <p class="ex-meta">Small groups · 30 minutes</p>
+      <ol>
+        <li>For your team's weekly or monthly case counts, calculate both the mean and the median.</li>
+        <li>Identify whether they differ substantially, and if so, which better represents a typical period.</li>
+        <li>Calculate the proportion your priority condition represents of some larger relevant total (for example, share of all reported cases), and separately calculate its rate per population.</li>
+        <li>State whether the proportion and rate would lead to the same conclusion about which district has the bigger problem. If they differ, write one sentence explaining why.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>This is a conceptual review before hands-on work; keep it discussion-driven rather than lecture-heavy, drawing examples directly from participants' own datasets where possible.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Participants default to the mean out of habit because it is the statistic they learned first. Have the room calculate both mean and median on a real skewed column so the difference is visible rather than asserted.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>country_priority_dataset.xlsx</td><td>Used for the mean/median comparison and the proportion/rate exercise.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>The median is usually more representative than the mean for skewed count data.</li>
+        <li>A proportion and a rate can rank the same places differently — check both.</li>
+        <li>Descriptive analysis can describe a pattern; it cannot establish why it occurred.</li>
+      </ul>
+      <ol class="qs">
+        <li>Why might the mean and median of weekly case counts differ substantially, and which would you report?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 2.5 ============ -->
+  <article class="session" id="s2-5">
+    <p class="s-meta"><span class="id">Session 2.5</span><span>14:00–15:00 · 60 minutes</span><span>Demonstrate-guide-release</span></p>
+    <h2 class="stitle">Descriptive statistics using Excel</h2>
+    <p class="lede">Building this morning's concepts into working Excel formulas, then applying them directly to each team's own priority dataset for the remainder of the hour.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Calculate mean, median, and range using Excel functions.</li>
+        <li>Build a summary table of counts, proportions, and rates by district and sex.</li>
+        <li>Apply these calculations to their own priority dataset.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>The core functions (15 min)</h4>
+<pre><code>=AVERAGE(range)     mean
+=MEDIAN(range)       median
+=MAX(range)-MIN(range)   range
+=COUNTIFS(range, criteria)   count with conditions
+=COUNTIFS(range, criteria) / COUNTIFS(total_range, total_criteria)
+                      proportion
+=COUNTIFS(range, criteria) / population * multiplier
+                      rate</code></pre>
+
+    <h4>Building the summary table (20 min)</h4>
+    <p>Demonstrate constructing a single summary table with district as rows and mean, median, count, proportion, and rate as columns, built with formulas referencing a named Table rather than a fixed range — so the table can be refreshed against next quarter's data without rebuilding it, directly applying the reproducibility principle introduced this week.</p>
+
+    <h4>Applied practice on team data (25 min)</h4>
+    <p>Teams build this summary table for their own priority dataset, by district and by sex, continuing to apply the Session 1.2 disaggregation plan and the Session 2.3 rate calculation.</p>
+
+    <div class="block ex">
+      <h3>Exercise 2.5: Build your team's summary table</h3>
+      <p class="ex-meta">Country teams, applied practice · 40 minutes</p>
+      <ol>
+        <li>Build a summary table with district and sex as rows, and count, proportion and rate as columns.</li>
+        <li>Add mean and median for the relevant time-series measure (weekly or monthly counts).</li>
+        <li>Confirm all formulas reference a named Table, not a fixed range.</li>
+        <li>Sense-check: do the rates fall in a plausible range, and do the proportions sum sensibly across categories?</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>The 14:30–15:00 window on the schedule continues this same applied work rather than starting a new activity — treat the hour as one continuous block.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Formulas built against a fixed range (e.g. A2:A400) rather than a named Table. This breaks the moment new rows are added. Check every team's formulas for this before moving on.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's combined and partially cleaned dataset.</td></tr>
+        <tr><td>descriptive_statistics_reference.pdf</td><td>Function reference card for this session.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Build summary formulas against named Tables so they survive a new data extract.</li>
+        <li>A summary table with count, proportion and rate side by side lets a reader see all three at once.</li>
+      </ul>
+      <ol class="qs">
+        <li>Why does referencing a named Table rather than a fixed range matter for next quarter's report?</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 2.6 ============ -->
+  <article class="session" id="s2-6">
+    <p class="s-meta"><span class="id">Session 2.6</span><span>15:00–16:00 · 60 minutes</span><span>Demonstrate-guide-release</span></p>
+    <h2 class="stitle">Data analysis using PivotTables</h2>
+    <p class="lede">PivotTables are the primary analysis tool for the rest of this project. This session covers the mechanics that matter most — correct grouping, showing values as percentages, and the two silent errors that produce wrong-looking-right numbers.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Build a PivotTable from a named Table with correct grouping and layout for a report table.</li>
+        <li>Use "Show Values As" percentage options correctly and state what question each answers.</li>
+        <li>Detect the stale-cache and implicit-filter errors before trusting a PivotTable's total.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>Building for report use (20 min)</h4>
+<pre><code>SOURCE must be a named Table, never a plain range.
+LAYOUT for a table you can paste into a report:
+  Design > Report Layout > Show in Tabular Form
+  Design > Subtotals > Do Not Show Subtotals
+
+GROUPING dates: right-click the real date field > Group > Months/Years.
+Never group a text-formatted date — it groups alphabetically, silently.</code></pre>
+
+    <h4>Show Values As (15 min)</h4>
+<pre><code>% of Row Total     within each district, what share was male?
+% of Column Total  within males, what share was in each district?
+% of Grand Total   of all cases, what share was male in District A?
+These three answer different questions. State which one you mean
+in the table's heading, every time.</code></pre>
+
+    <h4>Two silent errors (15 min)</h4>
+<pre><code>STALE CACHE — the Pivot does not update when the source changes until
+  refreshed. Set: PivotTable Options > Data > Refresh on open. Always
+  check the grand total against COUNTA of the source Table.
+
+IMPLICIT FILTER — a forgotten filter silently excludes rows, and the
+  remaining total still looks plausible. Check the grand total every
+  time before trusting a PivotTable's numbers.</code></pre>
+
+    <div class="block ex">
+      <h3>Exercise 2.6: Build and break a PivotTable</h3>
+      <p class="ex-meta">Individual, then country teams · 40 minutes</p>
+      <ol>
+        <li>Build a PivotTable of your priority dataset by district and sex, tabular layout, no subtotals.</li>
+        <li>Verify the grand total against the row count of your source Table.</li>
+        <li>Add a "% of Row Total" view and write the one sentence it answers; switch to "% of Column Total" and write a different sentence.</li>
+        <li>Deliberately apply a filter, do not refresh, and observe what happens to the grand total — then fix it. This is the check you should now run on every PivotTable you build for the rest of the week.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Step 4, deliberately breaking the PivotTable, is the most valuable five minutes of the session — do not cut it under time pressure.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Learners use Excel's automatic numeric grouping for age, which does not match census age bands used for rate calculations. Build age bands as an explicit column instead, matching the denominator's bands exactly.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's own dataset.</td></tr>
+        <tr><td>pivot_mechanics_reference.pdf</td><td>Show Values As options and the two silent-error checks.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>Check the PivotTable's grand total against the source row count every time.</li>
+        <li>"% of row total" and "% of column total" answer different questions — say which you mean.</li>
+      </ul>
+      <ol class="qs">
+        <li>Your PivotTable's total is lower than your Table's row count. Name the two most likely causes.</li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- ============ SESSION 2.7 ============ -->
+  <article class="session" id="s2-7">
+    <p class="s-meta"><span class="id">Session 2.7</span><span>16:00–17:00 · 60 minutes</span><span>Applied team practice, facilitators circulating</span></p>
+    <h2 class="stitle">Applied practice: teams analyze data</h2>
+    <p class="lede">The day's closing hour is unstructured applied time. Teams apply everything from today — census-based rates, descriptive statistics, and PivotTables — directly to their own analysis objectives, producing the first real results tables of the week.</p>
+
+    <div class="block obj">
+      <h3>Learning objectives</h3>
+      <ol>
+        <li>Produce at least one complete results table addressing one of the team's analysis objectives.</li>
+        <li>Apply the verification habits from today — grand-total checks, rate sense-checks — without prompting.</li>
+      </ol>
+    </div>
+
+    <h3>Detailed content</h3>
+    <h4>How facilitators run this hour (10 min briefing to facilitators, then continuous circulation)</h4>
+    <p>Facilitators do not teach from the front during this hour. Circulate team to team, ask each team to show their current PivotTable or summary table, and check specifically: is the grand total verified, is the rate's denominator correctly matched and cited, and does the result address the stated objective rather than drifting into an interesting but unplanned tangent.</p>
+
+    <div class="block ex">
+      <h3>Exercise 2.7: First results table</h3>
+      <p class="ex-meta">Country teams · full hour</p>
+      <ol>
+        <li>Select your first analysis objective from Session 1.4.</li>
+        <li>Build the table needed to answer it, using today's tools.</li>
+        <li>Run the verification checks: grand total, denominator match, plausibility.</li>
+        <li>Draft one sentence stating what the table shows, in plain language, without interpretation.</li>
+      </ol>
+    </div>
+
+    <div class="block fac">
+      <h3>Facilitator notes</h3>
+      <dl>
+        <dt>Timing</dt>
+        <dd>Resist the urge to reconvene the room for a final wrap-up discussion — the value of this hour is uninterrupted applied time, and a five-minute close is enough to flag anything urgent for tomorrow's debrief.</dd>
+        <dt>Common pitfall</dt>
+        <dd>Teams drift toward an interesting pattern they noticed that is not one of their stated objectives. Gently redirect to the objective, and note the interesting pattern as a possible addition only if time allows later in the week.</dd>
+        <dt>Real-world edge case</dt>
+        <dd>A team finishes early. Assign them the extension of applying the same table structure to a second objective, rather than leaving them idle or letting them help another team prematurely.</dd>
+      </dl>
+    </div>
+
+    <div class="block res">
+      <h3>Required datasets, tools and resources</h3>
+      <table>
+        <tr><td>country_priority_dataset.xlsx</td><td>Each team's own dataset, fully joined and partially cleaned.</td></tr>
+        <tr><td>analysis_objectives_template.docx</td><td>From Session 1.4, to keep the work anchored to stated objectives.</td></tr>
+      </table>
+    </div>
+
+    <div class="block check">
+      <h3>Key takeaways and assessment checks</h3>
+      <ul class="takeaways">
+        <li>By end of Tuesday, every team should hold at least one verified results table tied directly to a stated objective.</li>
+      </ul>
+      <ol class="qs">
+        <li>What are the three checks a facilitator should look for on any table produced this hour?</li>
+      </ol>
+    </div>
+  </article>
+
+  <div class="day-pager">
+    <a href="day1.html">← Day 1 — Monday</a>
+    <a href="day3.html">Day 3 — Wednesday →</a>
+  </div>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap"><p>Data Analysis and Report Writing Project — Phase 1 Training of Trainers.</p></div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
